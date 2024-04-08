@@ -1,6 +1,8 @@
 
 import Link from "next/link";
 
+import Image from "next/image"
+
 export default function Home() {
   return (
     <>
@@ -58,7 +60,7 @@ export default function Home() {
               </a>
             </div>
             <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-              <img src="https://img.freepik.com/free-photo/newlyweds-smiling_1153-1049.jpg?w=900" alt="mockup" />
+              <Image src={"/img/gallery/9.png"} alt="mockup" width={600} height={600} />
             </div>
           </div>
         </section>
@@ -73,19 +75,33 @@ export default function Home() {
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
               <div>
-                <img className="rounded-lg" src="https://img.freepik.com/free-photo/charming-bride-groom-hold-each-other-tender-sitting-bench-outside_8353-7106.jpg?w=1380" alt="no img" />
-              </div>
-              <div>
-                <img className="rounded-lg" src="https://img.freepik.com/free-photo/charming-bride-groom-hold-each-other-tender-sitting-bench-outside_8353-7106.jpg?w=1380" alt="no img" />
-              </div><div>
-                <img className="rounded-lg" src="https://img.freepik.com/free-photo/charming-bride-groom-hold-each-other-tender-sitting-bench-outside_8353-7106.jpg?w=1380" alt="no img" />
-              </div><div>
-                <img className="rounded-lg" src="https://img.freepik.com/free-photo/charming-bride-groom-hold-each-other-tender-sitting-bench-outside_8353-7106.jpg?w=1380" alt="no img" />
-              </div><div>
-                <img className="rounded-lg" src="https://img.freepik.com/free-photo/charming-bride-groom-hold-each-other-tender-sitting-bench-outside_8353-7106.jpg?w=1380" alt="no img" />
-              </div><div>
-                <img className="rounded-lg" src="https://img.freepik.com/free-photo/charming-bride-groom-hold-each-other-tender-sitting-bench-outside_8353-7106.jpg?w=1380" alt="no img" />
-              </div>
+                <Image className="rounded-lg" src={"/img/gallery/1.png"} alt="no image" width={400} height={400} />
+               </div>
+               <div>
+                <Image className="rounded-lg" src={"/img/gallery/2.png"} alt="no image" width={400} height={400} />
+               </div>
+               <div>
+                <Image className="rounded-lg" src={"/img/gallery/3.png"} alt="no image" width={400} height={400} />
+               </div>
+               <div>
+                <Image className="rounded-lg" src={"/img/gallery/4.png"} alt="no image" width={400} height={400} />
+               </div>
+               <div>
+                <Image className="rounded-lg" src={"/img/gallery/5.png"} alt="no image" width={400} height={400} />
+               </div>
+               <div>
+                <Image className="rounded-lg" src={"/img/gallery/6.png"} alt="no image" width={400} height={400} />
+               </div>
+               <div>
+                <Image className="rounded-lg" src={"/img/gallery/7.png"} alt="no image" width={400} height={400} />
+               </div>
+               <div>
+                <Image className="rounded-lg" src={"/img/gallery/8.png"} alt="no image" width={400} height={400} />
+               </div>
+               <div>
+                <Image className="rounded-lg" src={"/img/gallery/9.png"} alt="no image" width={400} height={400} />
+               </div>
+              
             </div>
           </div>
         </section>
@@ -101,12 +117,13 @@ export default function Home() {
               <div class="grid gap-12 sm:grid-cols-2 lg:grid-cols-4 justify-center">
                 <article class="max-w-xs">
                   <a href="#">
-                    <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/article/blog-1.png" class="mb-5 rounded-lg" alt="Image 1" />
+                    
+                <Image className="mb-5 rounded-lg" src={"/img/blog/3.png"} alt="no image" width={300} height={300} />
                   </a>
                   <h2 class="mb-2 text-xl font-bold leading-tight text-white">
-                    <a href="#">Our first office</a>
+                    <a href="#">Our first Meet</a>
                   </h2>
-                  <p class="mb-4 text-gray-500 dark:text-gray-400">Over the past year, Volosoft has undergone many changes! After months of preparation.</p>
+                  <p class="mb-4 text-gray-500 dark:text-gray-400">Second divided from form fish beast made every of seas all gathered us saying he our</p>
                   <a href="#" class="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline">
                     Read in 2 minutes
                   </a>
@@ -116,7 +133,7 @@ export default function Home() {
                     <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/article/blog-2.png" class="mb-5 rounded-lg" alt="Image 2" />
                   </a>
                   <h2 class="mb-2 text-xl font-bold leading-tight text-white">
-                    <a href="#">Enterprise design tips</a>
+                    <a href="#">Enterprise our relaction</a>
                   </h2>
                   <p class="mb-4  text-gray-500 dark:text-gray-400">Over the past year, Volosoft has undergone many changes! After months of preparation.</p>
                   <a href="#" class="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline">
@@ -128,7 +145,7 @@ export default function Home() {
                     <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/article/blog-3.png" class="mb-5 rounded-lg" alt="Image 3" />
                   </a>
                   <h2 class="mb-2 text-xl font-bold leading-tight text-white">
-                    <a href="#">We partnered with Google</a>
+                    <a href="#">We partnered</a>
                   </h2>
                   <p class="mb-4  text-gray-500 dark:text-gray-400">Over the past year, Volosoft has undergone many changes! After months of preparation.</p>
                   <a href="#" class="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline">
@@ -140,7 +157,7 @@ export default function Home() {
                     <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/article/blog-4.png" class="mb-5 rounded-lg" alt="Image 4" />
                   </a>
                   <h2 class="mb-2 text-xl font-bold leading-tight text-white">
-                    <a href="#">Our first project with React</a>
+                    <a href="#">Our first day</a>
                   </h2>
                   <p class="mb-4  text-gray-500 dark:text-gray-400">Over the past year, Volosoft has undergone many changes! After months of preparation.</p>
                   <a href="#" class="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline">
