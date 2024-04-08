@@ -118,7 +118,7 @@ export default function Home() {
                 <article class="max-w-xs">
                   <a href="#">
                     
-                <Image className="mb-5 rounded-lg" src={"/img/blog/3.png"} alt="no image" width={300} height={300} />
+                <Image className="mb-5 rounded-lg" src={"/img/blog/blog_3.png"} alt="no image" width={300} height={200} />
                   </a>
                   <h2 class="mb-2 text-xl font-bold leading-tight text-white">
                     <a href="#">Our first Meet</a>
@@ -130,7 +130,7 @@ export default function Home() {
                 </article>
                 <article class="max-w-xs">
                   <a href="#">
-                    <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/article/blog-2.png" class="mb-5 rounded-lg" alt="Image 2" />
+                <Image className="mb-5 rounded-lg" src={"/img/blog/blog_1.png"} alt="no image" width={300} height={200} />
                   </a>
                   <h2 class="mb-2 text-xl font-bold leading-tight text-white">
                     <a href="#">Enterprise our relaction</a>
@@ -142,7 +142,7 @@ export default function Home() {
                 </article>
                 <article class="max-w-xs">
                   <a href="#">
-                    <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/article/blog-3.png" class="mb-5 rounded-lg" alt="Image 3" />
+                <Image className="mb-5 rounded-lg" src={"/img/blog/blog_2.png"} alt="no image" width={300} height={200} />
                   </a>
                   <h2 class="mb-2 text-xl font-bold leading-tight text-white">
                     <a href="#">We partnered</a>
@@ -154,7 +154,7 @@ export default function Home() {
                 </article>
                 <article class="max-w-xs">
                   <a href="#">
-                    <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/article/blog-4.png" class="mb-5 rounded-lg" alt="Image 4" />
+                <Image className="mb-5 rounded-lg" src={"/img/blog/blog_3.png"} alt="no image" width={300} height={200} />
                   </a>
                   <h2 class="mb-2 text-xl font-bold leading-tight text-white">
                     <a href="#">Our first day</a>
