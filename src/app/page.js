@@ -3,49 +3,17 @@ import Link from "next/link";
 
 import Image from "next/image"
 
+
+
+import Navbar from "./components/Navbar";
+
 export default function Home() {
   return (
     <>
 
       <Link href='/deshboard'> Login Deshboard</Link>
-      <header className="bg-gray-700">
-
-        <nav class="flex items-center justify-between flex-wrap p-6 max-w-screen-xl mx-auto">
-          <div class="flex items-center flex-shrink-0 text-white mr-6">
-            <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" /></svg>
-            <span class="font-semibold text-xl tracking-tight">Rural development</span>
-          </div>
-          <div class="block lg:hidden">
-            <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
-              <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" /></svg>
-            </button>
-          </div>
-          <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-            <div class="text-lg lg:flex-grow lg:flex lg:justify-center">
-              <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-                Home
-              </a>
-              <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-                About us
-              </a>
-              <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-                Our Story
-              </a>
-              <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-                Wedding Gallery
-              </a>
-              <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
-                Contact Us
-              </a>
-            </div>
-            <div>
-              <a href="#" class="inline-block text-sm px-8 py-4 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Book a Call</a>
-            </div>
-          </div>
-        </nav>
-      </header>
       <main className="">
-
+        <Navbar />
         <section class="bg-gray-900 pt-16">
           <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
             <div class="mr-auto place-self-center lg:col-span-7">
@@ -76,49 +44,49 @@ export default function Home() {
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
               <div>
                 <Image className="rounded-lg" src={"/img/gallery/1.png"} alt="no image" width={400} height={400} />
-               </div>
-               <div>
+              </div>
+              <div>
                 <Image className="rounded-lg" src={"/img/gallery/2.png"} alt="no image" width={400} height={400} />
-               </div>
-               <div>
+              </div>
+              <div>
                 <Image className="rounded-lg" src={"/img/gallery/3.png"} alt="no image" width={400} height={400} />
-               </div>
-               <div>
+              </div>
+              <div>
                 <Image className="rounded-lg" src={"/img/gallery/4.png"} alt="no image" width={400} height={400} />
-               </div>
-               <div>
+              </div>
+              <div>
                 <Image className="rounded-lg" src={"/img/gallery/5.png"} alt="no image" width={400} height={400} />
-               </div>
-               <div>
+              </div>
+              <div>
                 <Image className="rounded-lg" src={"/img/gallery/6.png"} alt="no image" width={400} height={400} />
-               </div>
-               <div>
+              </div>
+              <div>
                 <Image className="rounded-lg" src={"/img/gallery/7.png"} alt="no image" width={400} height={400} />
-               </div>
-               <div>
+              </div>
+              <div>
                 <Image className="rounded-lg" src={"/img/gallery/8.png"} alt="no image" width={400} height={400} />
-               </div>
-               <div>
+              </div>
+              <div>
                 <Image className="rounded-lg" src={"/img/gallery/9.png"} alt="no image" width={400} height={400} />
-               </div>
-              
+              </div>
+
             </div>
           </div>
         </section>
 
 
         <section class="bg-gray-800">
-          
-        <div class="py-4 px-2 mx-auto max-w-screen-xl text-center lg:py-8 lg:px-6">
-              <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">Our Story</h1>
-            </div>
+
+          <div class="py-4 px-2 mx-auto max-w-screen-xl text-center lg:py-8 lg:px-6">
+            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">Our Story</h1>
+          </div>
           <aside aria-label="Related articles" class="py-2 lg:py-12 bg-gray-800">
             <div class="px-4 mx-auto max-w-screen-xl">
               <div class="grid gap-12 sm:grid-cols-2 lg:grid-cols-4 justify-center">
                 <article class="max-w-xs">
                   <a href="#">
-                    
-                <Image className="mb-5 rounded-lg" src={"/img/blog/blog_3.png"} alt="no image" width={300} height={200} />
+
+                    <Image className="mb-5 rounded-lg" src={"/img/blog/blog_3.png"} alt="no image" width={300} height={200} />
                   </a>
                   <h2 class="mb-2 text-xl font-bold leading-tight text-white">
                     <a href="#">Our first Meet</a>
@@ -130,7 +98,7 @@ export default function Home() {
                 </article>
                 <article class="max-w-xs">
                   <a href="#">
-                <Image className="mb-5 rounded-lg" src={"/img/blog/blog_1.png"} alt="no image" width={300} height={200} />
+                    <Image className="mb-5 rounded-lg" src={"/img/blog/blog_1.png"} alt="no image" width={300} height={200} />
                   </a>
                   <h2 class="mb-2 text-xl font-bold leading-tight text-white">
                     <a href="#">Enterprise our relaction</a>
@@ -142,7 +110,7 @@ export default function Home() {
                 </article>
                 <article class="max-w-xs">
                   <a href="#">
-                <Image className="mb-5 rounded-lg" src={"/img/blog/blog_2.png"} alt="no image" width={300} height={200} />
+                    <Image className="mb-5 rounded-lg" src={"/img/blog/blog_2.png"} alt="no image" width={300} height={200} />
                   </a>
                   <h2 class="mb-2 text-xl font-bold leading-tight text-white">
                     <a href="#">We partnered</a>
@@ -154,7 +122,7 @@ export default function Home() {
                 </article>
                 <article class="max-w-xs">
                   <a href="#">
-                <Image className="mb-5 rounded-lg" src={"/img/blog/blog_3.png"} alt="no image" width={300} height={200} />
+                    <Image className="mb-5 rounded-lg" src={"/img/blog/blog_3.png"} alt="no image" width={300} height={200} />
                   </a>
                   <h2 class="mb-2 text-xl font-bold leading-tight text-white">
                     <a href="#">Our first day</a>
@@ -169,6 +137,26 @@ export default function Home() {
           </aside>
         </section>
       </main>
+
+
+
+
+
+
+      <footer class="rounded-lg shadow m-4bg-gray-800">
+        <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://flowbite.com/" class="hover:underline">wedding™</a>. All Rights Reserved.
+          </span>
+          <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+            <li>
+              <Link href="/" class="hover:underline me-4 md:me-6">Back to home</Link>
+            </li>
+
+          </ul>
+        </div>
+      </footer>
+
+
     </>
 
   );
